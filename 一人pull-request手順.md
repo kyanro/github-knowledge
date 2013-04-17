@@ -13,22 +13,18 @@
 
 3. `origin`に`1stPullRequest`をpush
 
-4. GitHub(ブラウザ上)で`master ← 1stPullRequest` のpull requestを作成
-
-5. GitHub上でoriginのリポジトリを確認すると、`Your recently pushed branches:Pull Request Compare 1stPullRequest (1 minutes ago)`
+4. GitHub上でoriginのリポジトリを確認すると、 `Your recently pushed branches:` `Pull Request Compare 1stPullRequest (1 minutes ago)`
 のようなメッセージが出ているので`Pull Request`のボタンをクリック
 
-6. 画面遷移後うえのほうをみると、マージ先とマージ元を選択する画面になっているので `master ← 1stPullRequest` となるように設定
+5. 画面遷移後うえのほうをみると、マージ先とマージ元を選択する画面になっているので `master ← 1stPullRequest` となるように設定
 
-7. pull requestの`タイトル`、`本文`を入力した後、`Send pull request`をクリック
+6. pull requestの`タイトル`、`本文`を入力した後、`Send pull request`をクリック
 
-8. GitHub(ブラウザ上)で`master`へ`1stPullRequest` をmergeしていいかレビュー
+7. pull requestが作成され`Discussion`タブが開かれた状態になるので、レビュアーになったつもりでレビュー
 
-9. pull requestが作成され`Discussion`タブが開かれた状態になるので、レビュアーになったつもりでレビュー
+8. 気になる点があれば、コメントでやり取りする※
 
-10. 気になる点があれば、コメントでやり取りする※
-
-11. 問題がなければ、GitHub(ブラウザ上)で`merge pull request`ボタンをクリック
+9. 問題がなければ、GitHub(ブラウザ上)で`merge pull request`ボタンをクリック
 
 
 ※コメントのやりとりはpull request上がいいのか、commit上がいいのか調べる
