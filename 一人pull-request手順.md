@@ -14,19 +14,21 @@
 3. `origin`に`1stPullRequest`をpush
 
 4. GitHub(ブラウザ上)で`master ← 1stPullRequest` のpull requestを作成
-GitHub上でoriginのリポジトリを確認すると、
-	Your recently pushed branches:
-	Pull Request Compare 1stPullRequest (1 minutes ago)
+
+5. GitHub上でoriginのリポジトリを確認すると、`Your recently pushed branches:Pull Request Compare 1stPullRequest (1 minutes ago)`
 のようなメッセージが出ているので`Pull Request`のボタンをクリック
-画面遷移後うえのほうをみると、マージ先とマージ元を選択する画面になっているので
-`master ← 1stPullRequest`
-となるように設定し、pull requestの`タイトル`、`本文`を入力した後、`Send pull request`をクリック
 
-5. GitHub(ブラウザ上)で`master`へ`1stPullRequest` をmergeしていいかレビュー
-pull requestが作成され`Discussion`タブが開かれた状態になるので、レビュアーになったつもりでレビュー
-気になる点があれば、コメントでやり取りする※
+6. 画面遷移後うえのほうをみると、マージ先とマージ元を選択する画面になっているので `master ← 1stPullRequest` となるように設定
 
-6. 問題がなければ、GitHub(ブラウザ上)で`merge pull request`ボタンをクリック
+7. pull requestの`タイトル`、`本文`を入力した後、`Send pull request`をクリック
+
+8. GitHub(ブラウザ上)で`master`へ`1stPullRequest` をmergeしていいかレビュー
+
+9. pull requestが作成され`Discussion`タブが開かれた状態になるので、レビュアーになったつもりでレビュー
+
+10. 気になる点があれば、コメントでやり取りする※
+
+11. 問題がなければ、GitHub(ブラウザ上)で`merge pull request`ボタンをクリック
 
 
 ※コメントのやりとりはpull request上がいいのか、commit上がいいのか調べる
@@ -34,3 +36,5 @@ pull requestが作成され`Discussion`タブが開かれた状態になるの�
 メモ：
 pull request中のブランチも更新可能（基本的に、できるけどやらないという方針がいいらしい）
 pull request中のブランチを削除すると、pull requestがcloseされる
+rejectされた場合はブランチ削除してから同じ名前のブランチでpull request送る？それとも名前かえる？
+`1stPullRequest → 1stPullRequest2`みたいに。
