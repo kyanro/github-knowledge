@@ -24,9 +24,9 @@ GitHub上でoriginのリポジトリを確認すると、
 
 5. GitHub(ブラウザ上)で`master`へ`1stPullRequest` をmergeしていいかレビュー
 pull requestが作成され`Discussion`タブが開かれた状態になるので、レビュアーになったつもりでレビュー
-気になる点があれば、コメントでやり取りする
+気になる点があれば、コメントでやり取りする※
+
+6. 問題がなければ、GitHub(ブラウザ上)で`merge`ボタンをクリック
 
 
-6. 問題がなければ、GitHub(ブラウザ上)で`master`へ`1stPullRequest` をmerge
-
-
+※コメントのやりとりはpull request上がいいのか、commit上がいいのか調べる
