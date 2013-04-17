@@ -1,0 +1,23 @@
+# 自分のリポジトリ一つでpull requestを試すための手順 in GitHub
+
+`master`に`1stPullRequest`ブランチを取り込んでもらいたいと仮定
+
+## 前提
+`remote`(githubのリポジトリ。以降`origin`)と`local`の`master`が同期済み
+
+## 流れ
+
+1. `local`で`1stPullRequest`branchを作成
+2. 何か適当な更新を行いcommit
+3. `origin`にpush
+4. GitHub(ブラウザ上)で`master ← 1stPullRequest` のpull requestを作成
+GitHub上でoriginのリポジトリを確認すると、
+	Your recently pushed branches:
+	Pull Request Compare 1stPullRequest (1 minutes ago)
+のようなメッセージが出ているのでクリック
+
+
+5. GitHub(ブラウザ上)で`master`へ`1stPullRequest` をmergeしていいかレビュー
+6. 問題がなければ、GitHub(ブラウザ上)で`master`へ`1stPullRequest` をmerge
+
+
